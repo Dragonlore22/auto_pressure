@@ -17,9 +17,15 @@ async def on_connect():
     
     
     print(f'''{Fore.RED}  
-    ╔═╗╦ ╦╦ ╔╦╗
-    ║  ║ ║║  ║ 
-    ╚═╝╚═╝╩═╝╩ auto pressure 
+   
+              _                       _ 
+             (_)                     (_)
+  _ __ ___    _    __ _   _ __ ___    _ 
+ | '_ ` _ \  | |  / _` | | '_ ` _ \  | |
+ | | | | | | | | | (_| | | | | | | | | |
+ |_| |_| |_| |_|  \__,_| |_| |_| |_| |_|
+                                        
+                                     auto pressure 
 
     logged in {client.user}
     ''')
